@@ -1,6 +1,6 @@
-# React + TypeScript + Vite
+# React + antd pro  + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project will lead you to create an mutitabs application with antd pro V5 without umi
 
 Currently, two official plugins are available:
 
