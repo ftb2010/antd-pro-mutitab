@@ -113,7 +113,7 @@ const AppLayout: FC = function () {
       setItems(newPanes.map((item: any) => item = _.merge(item, { closable: true })))
     else
       setItems(newPanes.map((item: any) => item = _.merge(item, { closable: false })))
-    onChange(routePath.key);
+    onChange(routePath.path);
   }
 
 
