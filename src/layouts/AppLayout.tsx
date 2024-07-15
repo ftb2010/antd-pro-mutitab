@@ -109,11 +109,7 @@ const AppLayout: FC = function () {
   const closeOtherTab = (routePath: any) => {
     console.log('routePath', routePath)
     const newPanes = items.filter(tab => tab.key === routePath.path);
-    if (newPanes.length > 1)
-      setItems(newPanes.map((item: any) => item = _.merge(item, { closable: true })))
-    else
-      setItems(newPanes.map((item: any) => item = _.merge(item, { closable: false })))
-    onChange(routePath.path);
+    setItems(newPanes.map((item: any) => item = _.merge(item, { closable: false })))
   }
 
 
